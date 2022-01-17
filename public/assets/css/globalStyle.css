@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+HTML {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: burlywood;
+}
+
+#container {
+    background-color: yellow;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px darkgray;
+    overflow: hidden;
+    width: 90%;
+    margin: 1rem auto;
+}
+
+#title {
+    font-size: 5rem;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 1rem 0;
+    background-color: darkgray;
+    cursor: default;
+}
+
+#content {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background-color: yellow;
+    border: none;
+    padding: 1rem 3rem;
+    font-size: 3rem;
+}
